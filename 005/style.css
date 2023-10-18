@@ -1,0 +1,118 @@
+body {
+    font-size: 0px;
+}
+
+.container {
+    position: relative;
+}
+
+.egg {
+    color: crimson;
+    background-color: pink;
+
+    position: relative;
+
+    font-size: 30px;
+    line-height: 154px;
+
+    font-weight: 700;
+    font-family: 'Victor Mono', monospace;
+
+    /* border: 3px solid skyblue; */
+    aspect-ratio: 3 / 4;
+    border-radius: 100% / 125% 125% 80% 80%;
+
+    display: inline-block;
+
+    width: 200px;
+    /* height: 200px; */
+
+    padding: 20px;
+    margin: 200px;
+
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.egg:hover {
+    color: white;
+    bottom: -10px;
+    left: 10px;
+}
+
+.egg1 {
+    background-color: #7180AC;
+}
+.egg2 {
+    background-color: #2B4570;
+}
+.egg3 {
+    background-color: #A8D0DB;
+}
+.egg4 {
+    background-color: #E49273;
+}
+.egg5 {
+    background-color: #A37A74;
+}
+
+img {
+    width: auto;
+    height: 300px;
+    position: absolute;
+    transition: all 2s ease-in-out;
+}
+
+show {
+    position: relative;
+}
+
+.show .bunny {
+    opacity: 0;
+}
+
+.show .racoon {
+    opacity: 1;
+}
+
+.show:hover .bunny {
+    opacity: 1;
+}
+
+.show:hover .racoon {
+    opacity: 0;
+}
+
+
+
+.up {
+    background-color: #7180AC;
+    display: block;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    display: none;
+}
+
+.up.active {
+    display: block;
+}
+
+
+
+.up:hover {
+    background-color: #2B4570;
+}

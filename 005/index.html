@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 005</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <a name="top"></a>
+
+    <div class="container">
+        <div class="egg egg1">Nr. 5</div>
+        <div class="egg egg2">Nr. 18</div>
+        <div class="egg egg3">Nr. 24</div>
+        <div class="egg egg4">Nr. 79</div>
+        <div class="egg egg5">Nr. 105</div>
+    </div>
+
+    <div class="show">
+        <img src="racoon.jpg" alt="racoon" class="racoon">
+        <img src="bunny.jpg" alt="bunny" class="bunny">
+    </div>
+
+
+
+    <a class="up" href="#top">up</a>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const up = document.querySelector('.up');
+            up.classList.toggle("active", window.scrollY > 500);
+        });
+    </script>
+
+
+</body>
+
+</html>
